@@ -1,0 +1,43 @@
+body {
+    background-image: url(body_bg.png);
+    background-repeat: repeat;
+    background-color: #111111;
+}
+
+#arc_nav {
+    background-image: url(arc_nav_bg.png);
+    background-repeat: repeat;
+    background-color: #333333;
+    height: 40px;
+    position:fixed;
+    width:100%;
+}
+
+#menu_ul {
+    margin: 0px;
+}
+
+#menu_ul li {
+    list-style: none;
+    display : inline-flex;
+    height:40px;
+    background-color: rgba(0,0,0,0);
+    margin: 0px;
+    margin-left: 20px;
+    padding:0px;
+
+}
+
+#menu_ul a {
+    text-decoration: none;
+    display: block;
+    font-family: Goblin;
+    font-size: 32px;
+    color: #0099ff;
+}
+#menu_ul span {
+
+    font-size: 24px;
+    margin-left:10px;
+
+}

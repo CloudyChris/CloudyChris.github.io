@@ -9,7 +9,7 @@ body {
     background-repeat: repeat;
     background-color: #333333;
     height: auto;
-    position:fixed;
+    border-bottom: 2px solid #0099ff;
     width:100%;
 }
 
@@ -40,4 +40,11 @@ body {
     font-size: 24px;
     margin-left:10px;
 
+}
+
+#l_arc_page {
+ margin:40px;
+ padding: 40px;
+ background-color: rgba(0,0,0,0.75);
+ border : 1px solid #0099ff;
 }

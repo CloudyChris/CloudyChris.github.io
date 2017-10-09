@@ -135,7 +135,7 @@
 				<type>sp</type>	
 				<uevw>
 					<name>Introducere in informatica</name>
-					<type>lab sgr. 1</type>
+					<type>laborator subgrupa 1</type>
 					<body>FIMM</body>
 					<room>CG121</room>
 				</uevw>
@@ -162,15 +162,59 @@
 					<room>CD006</room>
 				</evw>
 			</ent>
+			<ent>
+				<hh>16:00-17:50</hh>
+				<type>ct</type>	
+				<name>Desen tehnic</name>
+				<type>laborator</type>
+				<body>FAIMA</body>
+				<room>BN327</room>
+			</ent>
+			<ent>
+				<hh>18:00-19:50</hh>
+				<type>sp</type>	
+				<uevw>
+					<name>--</name>
+					<type>--</type>
+					<body>--</body>
+					<room>--</room>
+				</uevw>
+				<evw>
+					<name>Introducere in informatica</name>
+					<type>laborator subgrupa 1</type>
+					<body>FIMM</body>
+					<room>CG121</room>
+				</evw>
+			</ent>
 		</sch>
 	</zi>
 	<zi>
 		<day>Vineri</day>
-	</zi>
-	<zi>
-		<day>Sambata</day>
-	</zi>
-	<zi>
-		<day>Duminica</day>
+		<sch>
+			<ent>
+				<hh>8:00-9:50</hh>
+				<type>ct</type>	
+				<name>Introducere in informatica</name>
+				<type>laborator subgrupa 2</type>
+				<body>ACS</body>
+				<room>CI201</room>
+			</ent>
+			<ent>
+				<hh>10:00-11:50</hh>
+				<type>sp</type>	
+				<uevw>
+					<name>Analiza Matematica</name>
+					<type>seminar</type>
+					<body>IMST</body>
+					<room>CB104</room>
+				</uevw>
+				<evw>
+					<name>Studiul Materialelor</name>
+					<type>laborator</type>
+					<body>Transporturi</body>
+					<room>JK302</room>
+				</evw>
+			</ent>
+		</sch>
 	</zi>
 </orar>

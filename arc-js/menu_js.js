@@ -12,6 +12,9 @@ $(document).ready(function(){
     $("#m4_li").click(function(){
         $("#l_arc_page").load("content/pages/contact/index.html");
     });
+    $("#m5_li").click(function(){
+        $("#l_arc_page").load("content/pages/511D_util/index.html");
+    });
     /* loading home on website opening */
     $("#l_arc_page").load("content/pages/home/index.html");
 });

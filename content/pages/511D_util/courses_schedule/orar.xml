@@ -1,6 +1,7 @@
 <orar>
 	<zi>
 		<day>Luni</day>
+		<did>wd1</did>
 		<sch>
 			<ent>
 				<hh>12:00-13:50</hh>
@@ -54,6 +55,7 @@
 	</zi>
 	<zi>
 		<day>Marti</day>
+		<did>wd2</did>
 		<sch>
 			<ent>
 				<hh>12:00-13:50</hh>
@@ -84,6 +86,7 @@
 	</zi>
 	<zi>
 		<day>Miercuri</day>
+		<did>wd3</did>
 		<sch>
 		    <ent>
 				<hh>10:00-12:50</hh>
@@ -130,6 +133,7 @@
 	</zi>
 	<zi>
 		<day>Joi</day>
+		<did>wd4</did>
 		<sch>
 			<ent>
 				<hh>12:00-13:50</hh>
@@ -191,6 +195,7 @@
 	</zi>
 	<zi>
 		<day>Vineri</day>
+		<did>wd5</did>
 		<sch>
 			<ent>
 				<hh>8:00-9:50</hh>

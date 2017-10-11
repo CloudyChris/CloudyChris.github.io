@@ -56,7 +56,7 @@ body {
     border: 1px solid #0099ff;
 }
 
-.dl_button_a a {
+.dl_button_a a :default :active :hover {
     text-decoration: none;
     display: block;
     font-family: sans-serif;

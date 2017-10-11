@@ -48,3 +48,18 @@ body {
  background-color: rgba(0,0,0,0.75);
  border : 1px solid #0099ff;
 }
+
+#dl_button {
+    padding:20px;
+    margin: 20px;
+    background-color: #333333;
+    border: 1px solid #0099ff;
+}
+
+#dl_button_a {
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #0099ff;
+}

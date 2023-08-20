@@ -1,70 +1,81 @@
-body {
-    background-image: url(body_bg.png);
-    background-repeat: repeat;
-    background-color: #111111;
+body { 
+  background-color: #634E49;
+  overflow: hidden;  
 }
 
-#arc_nav {
-    background-image: url(arc_nav_bg.png);
-    background-repeat: repeat;
-    background-color: #333333;
-    height: auto;
-    border-bottom: 2px solid #0099ff;
-    width:100%;
+#arc_nav { 
+  background-color: #CAAE98;
+  height: auto;
+  border-bottom: 5px solid #B1835D;
+  width:100%;
 }
 
 #menu_ul {
-    margin: 0px;
+  margin: 0px;
 }
 
 #menu_ul li {
-    list-style: none;
-    display : inline-flex;
-    height:40px;
-    background-color: rgba(0,0,0,0);
-    margin: 0px;
-    margin-left: 20px;
-    padding:0px;
+  list-style: none;
+  display : inline-flex;
+  height: 100%;
+  background-color: #CAAE98;
+  margin: 0px;
+  margin-left: 20px;
+  padding:2px;
+}
 
+.active_menu_item {
+  color: #FFF;
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+}
+
+.active_menu_item a {
+  color: #FFF !important;
 }
 
 #menu_ul a {
-    text-decoration: none;
-    display: block;
-    font-family: Goblin;
-    font-size: 32px;
-    color: #0099ff;
+  text-decoration: none;
+  display: block;
+  font-family: Goblin;
+  font-size: 32px;
+  color: #634E49;
 }
 #menu_ul span {
-
-    font-size: 24px;
-    margin-left:10px;
-
+  font-size: 24px;
+  margin-left:10px;
 }
 
 #l_arc_page {
- margin:40px;
- padding: 40px;
- background-color: rgba(0,0,0,0.75);
- border : 1px solid #0099ff;
+  margin:40px;
+  padding: 40px;
+  background-color: #CAAE98;
+  border : 3px solid #B1835D;
+  color : #634E49;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+#l_arc_page h2 {
+  padding: 5px;
+  border-bottom: 2px solid #634E49;
+}
+
+#l_arc_page p {
+  font-size: 1.5em;
 }
 
 .dl_button {
-    padding:20px;
-    margin: 20px;
-    background-color: #333333;
-    border: 1px solid #0099ff;
+  padding:20px;
+  margin: 20px;
+  background-color: #333333;
+  border: 3px solid #B1835D;
 }
 
 .dl_button_a a :default :active :hover {
-    text-decoration: none;
-    display: block;
-    font-family: sans-serif;
-    font-size: 32px;
-    color: #0099ff;
-}
-
-#l_arc_page {
-
-  color : #0099ff;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #634E49;
 }
